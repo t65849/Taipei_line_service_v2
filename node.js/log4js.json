@@ -1,0 +1,15 @@
+{
+	"appenders": [
+		{
+			"type": "logLevelFilter",
+			"level": "debug",
+			"category": "nodeCent",
+			"appender":{
+				"type": "file",
+				"filename": "/opt/taipeiline/logs/nodeCent.log",
+				"maxLogSize": 10485760,
+				"backups": 10
+			}
+		}
+	]
+}
